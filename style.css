@@ -1,0 +1,216 @@
+body {
+    background-color: white;
+  }
+
+#open {
+    width: 20px;
+    float: left;
+}
+
+#star {
+    width: 20px;
+    float: left;
+}
+
+#user {
+    width: 20px;
+    float: left;
+}
+
+#cart {
+    width: 20px;
+    float: left;
+}
+
+
+.logoOverall {
+    text-align: center;
+}
+
+
+.searchandmore {
+    height: 50px;
+    margin: 0 auto;
+    float: left;
+    list-style-type: none;
+    
+}
+
+nav {
+    background-color: #ADADAD;
+    position:relative;
+    height: 30px;
+    position: relative;
+    z-index:11;
+}
+
+nav ul {
+    height: 50px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    list-style-type: none;
+    width: 150px;
+    margin-bottom: 10px;
+    float: left;
+    line-height: 30px;
+    text-align: center;
+}
+
+li a {
+    color: white;
+    font-family:Sulphur Point;
+    text-decoration: none;
+    font-style:normal;
+    font-weight:400;
+    font-size:12px;
+    letter-spacing:0.55px;
+    line-height:30px;
+    display: block;
+}
+
+li a:hover{
+    background-color: beige;
+    color: black;
+}
+
+.topBanner{
+    display: inline;
+}
+
+a:link{
+    text-decoration: none!important;
+}
+
+.servicesButtons{
+    column-count: 3;
+    column-gap: 200px;
+    float: left;
+    text-align: center;
+    margin: 10px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.button1 {
+    width: 257;
+    height: 58;
+    color: F29991;
+}
+
+
+
+.pillow {
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-family: Noto Serif;
+    font-size:24px;
+    font-weight:400;
+  }
+
+.top-leftunder {
+    position: absolute;
+    top: 45%;
+    left: 12%;
+    font-family: Source Code Pro;
+    margin-top: 5px;
+    font-size:18px;
+    font-weight:400;
+  }
+
+  .top-leftunderthat {
+    position: absolute;
+    top: 48%;
+    left: 15%;
+    font-family: Source Code Pro;
+    margin-top: 10px;
+    font-size:14px;
+    font-weight:400;
+  }
+/* For some reason, there was no ability to add a class unless I kept the pattern of top-left... going*/
+  .top-leftunderthatorder {
+    position: absolute;
+    top: 55%;
+    left:21%;
+    font-family: Source Code Pro;
+    margin-top: 10px;
+    font-size:18px;
+    font-weight:400;
+    color: white;
+    display: block;
+    box-shadow: none;
+    color: inherit;
+  }
+
+.products-pillows {
+    column-count: 4;
+    column-gap: 100px;
+    float: left;
+    text-align: center;
+    margin: 100px;
+}
+
+p {
+    color: black;
+    font-family:Sulphur Point;
+    text-decoration: none;
+    font-style:normal;
+    font-weight:400;
+    font-size:20px;  
+}
+/* I centered the elements but am waiting for js to have overlays of the colors*/
+.container {
+    column-count: 4;
+    column-gap: 100px;
+    float: left;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-family:Sulphur Point;
+    font-style:normal;
+    font-weight:400;
+    text-align: center;
+    font-size:34px;  
+}
+
+.roundpillow {
+    position: absolute;
+    padding: 0; 
+    margin: 50px;
+}
+
+h1 {
+    float: right;
+    margin: 50px;
+    margin-right: 100px;
+    font-family:Sulphur Point;
+    font-style:normal;
+    font-weight:400;
+    text-align: center;
+    font-size:48px;  
+}
+
+.settings{
+    position: absolute;
+    margin: 150px;
+    margin-left: 60%;
+    font-family:Sulphur Point;
+    font-style:normal;
+    font-weight:400;
+    text-align: center;
+    font-size:48px;  
+}
