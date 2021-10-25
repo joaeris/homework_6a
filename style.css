@@ -94,6 +94,14 @@ a:link{
     margin-bottom: 40px;
 }
 
+.servicesButtons a:visited{
+    color: black;
+}
+
+.servicesButtons a:active{
+    color: black;
+}
+
 .button1 {
     width: 257;
     height: 58;
@@ -150,6 +158,18 @@ a:link{
     box-shadow: none;
     color: inherit;
   }
+
+.top-leftunderthatorder a:visited{
+    color: white;
+}
+.top-leftunderthatorder a:hover{
+    color: brown;
+}
+.top-leftunderthatorder a:active{
+    color: white;
+}
+
+
 
 .products-pillows {
     column-count: 4;
