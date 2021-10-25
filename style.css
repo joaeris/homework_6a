@@ -36,6 +36,8 @@ body {
     
 }
 
+/* Nav bar with links */
+
 nav {
     background-color: #ADADAD;
     position:relative;
@@ -84,6 +86,7 @@ a:link{
     text-decoration: none!important;
 }
 
+/* These are the three buttons on the site */
 .servicesButtons{
     column-count: 3;
     column-gap: 200px;
@@ -92,9 +95,19 @@ a:link{
     margin: 10px;
     margin-left: 40px;
     margin-bottom: 40px;
+    font-family:Sulphur Point;
+    font-style:normal;
+    font-weight:400;
+    text-align: center;
+    color: black;
 }
 
+/* The buttons needed these next three styles otherwise they would be blue.  */
 .servicesButtons a:visited{
+    color: black;
+}
+
+.servicesButtons a:link{
     color: black;
 }
 
@@ -105,10 +118,12 @@ a:link{
 .button1 {
     width: 257;
     height: 58;
-    color: F29991;
+    color: #F29991;
+    display: inline-block;
+    text-align: center;
 }
 
-
+/* Text overlay and main homepage picture. Again, photo is from pexels.com */
 
 .pillow {
     text-align: center;
@@ -168,8 +183,6 @@ a:link{
 .top-leftunderthatorder a:active{
     color: white;
 }
-
-
 
 .products-pillows {
     column-count: 4;
