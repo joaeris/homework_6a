@@ -217,12 +217,15 @@ a:link{
 }
 
 p {
-    color: black;
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
     font-family:Sulphur Point;
-    text-decoration: none;
     font-style:normal;
     font-weight:400;
-    font-size:20px;  
+    text-align: right;
+    font-size:18px;  
+
 }
 /* I centered the elements but am waiting for js to have overlays of the colors*/
 .container {
@@ -236,13 +239,6 @@ p {
     margin-bottom: 50px;
 }
 
-h4 {
-    font-family:Sulphur Point;
-    font-style:normal;
-    font-weight:400;
-    text-align: center;
-    font-size:34px;  
-}
 
 .roundpillow {
     position: absolute;
@@ -259,6 +255,23 @@ h1 {
     font-weight:400;
     text-align: center;
     font-size:48px;  
+}
+
+h2 {
+    color: black;
+    font-family:Sulphur Point;
+    text-decoration: none;
+    font-style:normal;
+    font-weight:400;
+    font-size:20px;  
+}
+
+h4 {
+    font-family:Sulphur Point;
+    font-style:normal;
+    font-weight:400;
+    text-align: center;
+    font-size:34px;  
 }
 
 .settings{
