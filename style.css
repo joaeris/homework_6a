@@ -42,7 +42,6 @@ nav {
     background-color: #ADADAD;
     position:relative;
     height: 30px;
-    position: relative;
     z-index:11;
 }
 
@@ -82,6 +81,8 @@ li a:hover{
     display: inline;
 }
 
+/* Link text decor. none */
+
 a:link{
     text-decoration: none!important;
 }
@@ -91,15 +92,17 @@ a:link{
     column-count: 3;
     column-gap: 200px;
     float: left;
-    text-align: center;
-    margin: 10px;
-    margin-left: 40px;
-    margin-bottom: 40px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    display: inline;
     font-family:Sulphur Point;
     font-style:normal;
     font-weight:400;
-    text-align: center;
     color: black;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* The buttons needed these next three styles otherwise they would be blue.  */
@@ -116,11 +119,30 @@ a:link{
 }
 
 .button1 {
-    width: 257;
-    height: 58;
-    color: #F29991;
+    background-color: #F29991;
     display: inline-block;
-    text-align: center;
+    text-align: center; 
+    border-color: #F29991;
+    width: 257px;
+    height: 30px;
+}
+
+.button2 {
+    background-color: #E29E6E;
+    display: inline-block;
+    text-align: center; 
+    border-color: #E29E6E;
+    width: 257px;
+    height: 30px;
+}
+
+.button3 {
+    background-color: #427FA4;
+    display: inline-block;
+    text-align: center; 
+    border-color: #427FA4;
+    width: 257px;
+    height: 30px;
 }
 
 /* Text overlay and main homepage picture. Again, photo is from pexels.com */
