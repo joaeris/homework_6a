@@ -283,6 +283,18 @@ h4 {
     font-size:34px;  
 }
 
+.dropdown {
+    margin-left: 900px;
+    display: inline-block;
+    align-items: left;
+    font-family: Sulphur Point;
+    font-style:normal;
+    font-weight:400;
+    text-align: left;
+    font-size:18px;  
+}
+
+
 
 .settings{
     position: absolute;
