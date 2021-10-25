@@ -266,6 +266,15 @@ h2 {
     font-size:20px;  
 }
 
+h3 {
+    color: black;
+    font-family:Sulphur Point;
+    text-decoration: none;
+    font-style:normal;
+    font-weight:400;
+    font-size:20px;  
+}
+
 h4 {
     font-family:Sulphur Point;
     font-style:normal;
@@ -273,6 +282,7 @@ h4 {
     text-align: center;
     font-size:34px;  
 }
+
 
 .settings{
     position: absolute;
