@@ -2,24 +2,11 @@ body {
     background-color: white;
   }
 
-#open {
-    width: 20px;
-    float: left;
-}
 
-#star {
-    width: 20px;
-    float: left;
-}
-
-#user {
-    width: 20px;
-    float: left;
-}
-
-#cart {
-    width: 20px;
-    float: left;
+.cart {
+    padding:10px;
+    float: right;
+    display: inline;
 }
 
 
@@ -174,7 +161,7 @@ a:link{
     font-weight:400;
   }
 
-  .top-leftunderthat {
+.top-leftunderthat {
     position: absolute;
     top: 48%;
     left: 15%;
@@ -227,7 +214,7 @@ p {
     font-size:18px;  
 
 }
-/* I centered the elements but am waiting for js to have overlays of the colors*/
+/* This is set up to hover but is waiting for the js behind it */
 .container {
     column-count: 4;
     column-gap: 100px;
@@ -239,12 +226,90 @@ p {
     margin-bottom: 50px;
 }
 
+.des-container{
+    width: 50%;
+    float: right;
+    font-family:Sulphur Point;
+}
+
+.round-container{
+    width: 50%;
+    float: left;
+}
+
 
 .roundpillow {
-    position: absolute;
-    padding: 0; 
-    margin: 50px;
+    margin-left: 50px;
 }
+
+.options-container{
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.fill{
+    float: left;
+}
+
+.color{
+    float: left;
+}
+
+.quantity{
+    float: left;
+}
+
+.submit{
+    float: right;
+    margin-top: 35%;
+}
+
+.fill{
+    margin: 4px 2px;
+}
+
+.buttonColor{
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-family:Sulphur Point;
+  font-size: 12px;
+  margin: 2px 2px;
+  border: none;
+  background-color: #96471A;
+}
+
+.buttonColor:hover{
+    background-color: black;
+
+}
+
+.buttonSubmit{
+  color: white;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-family:Sulphur Point;
+  font-size: 16px;
+  margin: 2px 2px;
+  background-color: black;
+  border: none;
+}
+
+.buttonSubmit:hover{
+    background-color: #96471A;
+  }
+
+#orderHere{
+    margin: 50px 10px 10px;
+}
+
+
 
 h1 {
     float: right;
@@ -283,16 +348,6 @@ h4 {
     font-size:34px;  
 }
 
-.dropdown {
-    margin-left: 900px;
-    display: inline-block;
-    align-items: left;
-    font-family: Sulphur Point;
-    font-style:normal;
-    font-weight:400;
-    text-align: left;
-    font-size:18px;  
-}
 
 
 

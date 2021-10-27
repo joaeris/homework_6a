@@ -18,7 +18,6 @@
             <div class="logoOverall">
                 <a href="index.html"><img src="assets/main logo.png"  id="logo" width="300" height= "80" alt="Welcome to Fluff Stuff. Established in 1996"></a>
             </div>
-
             <nav id="nav-container" class="menuBar" role="main">
                 <ul class="menu-navigation">
                     <li class="newArrivals">
@@ -43,45 +42,53 @@
                     </li>
                 </ul>
             </nav>
+            <div class="cart">
+                <a href="cart.html"><img src="assets/cart.png"  id="logo" width="30" height= "30" alt="View Cart"></a>
+             </div>
             <h2>products > round pillow</h2>
             <!-- This photo is from pexels.com -->
-            <div class="round">
+            <div class="round-container">
                 <div class="roundpillow">
                     <img src="assets/round pillow.png" id="pillow2" width="400" height= "530" alt="Round Pillow">
                 </div>
             </div>
-            <div class="description">
+            <!-- This is a container for the description to make it easier to read and see -->
+            <div class="des-container">
                 <h1>Round Pillow $98</h1>
-                <p> Come home to this soft pillow handcrafted in Pittsburgh. All-American, all-a-ROUND.</p>
-                <div class="dropdown">
+                <div>
+                <p> Come home to this soft pillow handcrafted in Pittsburgh. <br>All-American, all-a-ROUND.</br></p>
+                <!-- Options container to make everything pretty -->
+                <div class="options-container">
                     <div class="fill">
-                        <b> Fill </b>  
-                            <select id = "myList" >  
-                                <option> Select a fill </option> 
-                                <option> Duck/Down </option>  
-                                <option> Hypoallergenic Poly-blend </option>  
-                                <option> Memory Foam </option>  
-                            </select> 
+                        <label><b>Fill</b><select name="list" id="myList">
+                            <option> Select a fill </option> 
+                            <option id="duck" value="duck" onclick="duck()"> Duck/Down </option>  
+                            <option id="hypo" onclick="hypo()"> Hypoallergenic Poly-blend </option>  
+                            <option id="memory" onclick="memory()"> Memory Foam </option>  
+                            </select>
+                        </label>
                     </div> 
                     <div class="color">
                         <b> Color </b>  
-                            <select id = "myLista" onchange = "dropdown(this)">  
-                                <option> Select a color  </option> 
-                                <option value="assets/morninghaze.png"> Morning Haze </option>  
-                                <option value="assets/rainydayp.png"> Rainy Day </option>  
-                                <option value="assets/round pillow.png"> Cozy Denim </option>  
-                                <option value="assets/afterschoolspecial"> After School Special </option>  
-                            </select>  
+                            <button id="rainyDay" class="buttonColor" value="rainy" onclick="rainy()">Rainy Day</button>
+                            <button id="morningHaze" class="buttonColor" value="morning" onclick="morningHaze()">Morning Haze</button>
+                            <button id="afterSchool" class="buttonColor" value="after" onclick="afterSpecial()">After School Special</button>
+                            <button id="denimButton" class="buttonColor" value="denim" onclick="denim()">Denim</button> 
                     </div>
-                    <div class="quantity"></div>
-                        <b> Quantity </b>  
+                    <div class="quantity">
+                        <label><b> Quantity </b>
                             <div class="addquant">
                                 <input type="number" step="1" min="1" max="5" name="quantity" value="1" class="changenumb">
-                            </div>
-                        </div>
+                            </div> 
+                        </label>
+                    <span>You chose your fill with:</span><span id= "orderHere"></span>
+                    </div>
+                    <div class="submit">
+                        <button id="submitButton" class="buttonSubmit" value="submit" onchange="submit()">submit</button>
+                    </div>
+                    
             </div>
                 
-            </div>
             
             
 
