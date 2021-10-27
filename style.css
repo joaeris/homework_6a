@@ -348,6 +348,30 @@ h4 {
     font-size:34px;  
 }
 
+#shopping {
+    position: absolute;
+    width: 229px;
+    height: 34px;
+    left: 150px;
+    top: 253px;
+}
+
+#shipping {
+    position: absolute;
+    width: 1000;
+    padding: 25px;
+    font-family: Sulphur Point;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#cartImage{
+    float: left;
+}
+
+#shippingText{
+    margin-left: 200px;
+}
 
 
 
